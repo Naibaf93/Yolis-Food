@@ -1,0 +1,23 @@
+{
+  "name": "yolisfood",
+  "version": "1.0.0",
+  "description": "proyecto restaurante para mi prima maryory",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailDev": "npx tailwindcss -i ./src/css/input.css -o ./src/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naibaf93/Yolis-Food.git"
+  },
+  "author": "Fabián Huertas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naibaf93/Yolis-Food/issues"
+  },
+  "homepage": "https://github.com/Naibaf93/Yolis-Food#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
